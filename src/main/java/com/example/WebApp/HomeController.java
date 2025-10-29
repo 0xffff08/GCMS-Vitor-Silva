@@ -14,11 +14,11 @@ public class HomeController {
 		return "Hello, Vitor!";
 	}
 	@RequestMapping("/eclipse")
-	public @ResponseBody String greetingFulano() {
+	public @ResponseBody String greetingEclipse) {
 		return "Hello, Eclipse!";
 	}
 	@RequestMapping("/intellij")
-	public @ResponseBody String greetingFulano() {
+	public @ResponseBody String greetingIntellij() {
 		return "Hello, Injellij!";
 	}
 	

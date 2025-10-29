@@ -13,6 +13,10 @@ public class HomeController {
 	public @ResponseBody String greetingFulano() {
 		return "Hello, Vitor!";
 	}
+	@RequestMapping("/eclipse")
+	public @ResponseBody String greetingFulano() {
+		return "Hello, Eclipse!";
+	}
 	
 	
 }

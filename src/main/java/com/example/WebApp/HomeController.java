@@ -17,6 +17,10 @@ public class HomeController {
 	public @ResponseBody String greetingFulano() {
 		return "Hello, Eclipse!";
 	}
+	@RequestMapping("/intellij")
+	public @ResponseBody String greetingFulano() {
+		return "Hello, Injellij!";
+	}
 	
 	
 }
